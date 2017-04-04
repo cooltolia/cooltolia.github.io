@@ -1,9 +1,17 @@
-/*
 @font-face {
-    font-family: Montserrat;
-    src: url('montserrat-bold.woff2') format('woff2'),
-         url('montserrat-bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
+  font-family: Roboto;
+  font-weight: 300;
+  font-style: normal;
+
+  src: url("../fonts/Robotothin.woff2") format("woff2"),
+       url("../fonts/Robotothin.woff") format("woff");
 }
-*/
+
+@font-face {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+
+  src: url("../fonts/Robotomedium.woff2") format("woff2"),
+       url("../fonts/Robotomedium.woff") format("woff");
+}

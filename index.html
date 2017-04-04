@@ -4,22 +4,73 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Сайт Кулака Анатолий</title>
+  <title>Сайт Кулака Анатолия</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header>
+    <h1 style="display: none">Личный сайт вертсальщика Кулака Анатолия. В работе</h1>
+  </header>
+  <main class="main">
 
-<h1>Начнем!</h1>
+    <section class="about">
+      <h1 class="about__name">Кулак Анатолий,</h1>
+      <h2 class="about__prof">начинающий верстальщик</h2>
+      <div class="about__photo">
+        <img src="img/me.jpg" alt="Моя аватарка" title="Обычно я такой =)">
+      </div>
+      <div class="about__socials socials">
+        <a class="socials__btn" href="https://vk.com/cooltolia">
+          <svg class="socials__icon socials__icon--vk" width="25" height="25">
+            <use xlink:href="img/symbols.svg#icon-vk" />
+          </svg>
+        </a>
+        <a class="socials__btn" href="https://github.com/cooltolia">
+          <svg class="socials__icon socials__icon--github" width="25" height="25">
+            <use xlink:href="img/symbols.svg#icon-github" />
+          </svg>
+        </a>
+      </div>
+    </section>
 
-<h2>Список проектов</h2>
-<ol>
-  <li><a href="https://cooltolia.github.io/gllacy/">Gllacy</a></li>
-  <li><a href="https://cooltolia.github.io/sedona/">Sedona</a></li>
-  <li><a href="https://cooltolia.github.io/fooseshoes/">Fooseshoes</a></li>
-  <li><a href="https://cooltolia.github.io/disney/">Disney</a></li>
-  <li><a href="https://cooltolia.github.io/mishka/">Mishka</a></li>
-</ol>
+    <section class="projects">
+      <h2 class="projects__title">Несколько выполненных проектов в процессе&nbsp;обучения:</h2>
+      <div class="projects__list">
+        <a class="projects__item" href="https://cooltolia.github.io/gllacy/">
+          <div class="projects__preview">
+            <img src="img/preview-gllacy__min.jpg" width="100" height="74" alt="Превью сайта Глэйси">
+          </div>
+          <span class="projects__caption">Gllacy</span>
+        </a>
+        <a class="projects__item" href="https://cooltolia.github.io/fooseshoes/">
+          <div class="projects__preview">
+            <img src="img/preview-fooseshoes__min.jpg" width="100" height="74" alt="Превью сайта Фузишус">
+          </div>
+          <span class="projects__caption">Fooseshoes</span>
+        </a>
+        <a class="projects__item" href="https://cooltolia.github.io/disney/">
+          <div class="projects__preview">
+            <img src="img/preview-disney__min.jpg" width="100" height="74" alt="Превью сайта Дисней">
+          </div>
+          <span class="projects__caption">Disney</span>
+        </a>
+        <a class="projects__item" href="https://cooltolia.github.io/sedona/">
+          <div class="projects__preview">
+            <img src="img/preview-sedona__min.jpg" width="100" height="74" alt="Превью сайта Седона">
+          </div>
+          <span class="projects__caption">Sedona</span>
+        </a>
+        <a class="projects__item" href="https://cooltolia.github.io/mishka/">
+          <div class="projects__preview">
+            <img src="img/preview-mishka__min.jpg" width="100" height="74" alt="Превью сайта Мишка">
+          </div>
+          <span class="projects__caption">Mishka</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
 </body>
 
 </html>

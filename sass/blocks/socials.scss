@@ -1,0 +1,26 @@
+.socials {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials__btn {
+  display: block;
+  text-decoration: none;
+  margin-right: 2em;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.socials__icon {
+  width: 2.5em;
+  height: 2.5em;
+
+  &--vk {
+    fill: #507299;
+  }
+}
